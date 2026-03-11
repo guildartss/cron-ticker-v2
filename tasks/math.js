@@ -27,11 +27,7 @@ const getGreeting = (name) => {
 const divide = (a, b) => {
     if (typeof a !== 'number' || typeof b !== 'number') {
         throw new Error('Los argumentos deben ser números');
-    }
-    if (b === 0) {
-        throw new Error('No se puede dividir entre cero');
-    }
-    return a / b;
+    
 };
 
 module.exports = {
